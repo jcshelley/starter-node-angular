@@ -87,7 +87,7 @@ function sshConnect() {
       // TODO: ADD YOUR IP ADDRESS BELOW (e.g. '12.34.5.67')
       host: '3.82.228.152',
       username: 'ubuntu',
-      publicKey: 'git@github.com:jcshelley/starter-node-angular.git'
+      publicKey: 'https://travis-ci.org/jcshelley/starter-node-angular'
     })
     .then(function() {
       console.log('SSH Connection established.');
