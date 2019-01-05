@@ -87,7 +87,7 @@ function sshConnect() {
       // TODO: ADD YOUR IP ADDRESS BELOW (e.g. '12.34.5.67')
       host: '3.82.228.152',
       username: 'ubuntu',
-      privateKey: 'C:/Users/Backup/Desktop/keys/example-fp-key.ppk'
+      privateKey: 'git@github.com:jcshelley/starter-node-angular.git'
     })
     .then(function() {
       console.log('SSH Connection established.');
